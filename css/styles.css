@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {    
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-write: #ffffff;
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-gray: #CCCCCC;
+    --color-black: #000000;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color-red);
+    color: var(--color-write);
+}
+
+header h1 {
+    display: inline;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header p {
+    align-items: center;
+    font-size: 14px; 
+    font-weight: 400;   
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-main div {
+    display: flex;
+    align-items: center;
+}
+
+/*Main*/
+
+/*Seção One*/
+
+.space h2 {
+    color: var(--color-write);
+}
+
+.space {
+    display: block;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background-color: var(--color-blue);
+    color: var(--color-black);
+}
+
+.card-one {
+    width: 960px;
+    background-color: var(--color-gray);
+}
+
+/*Seção Two*/
+
+.modalities {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;;
+    align-items: center;
+    background-color: var(--color-write);
+    color: var(--color-red);
+}
+
+.card-two {
+    width: 960px;
+    background-color: var(--color-blue);
+    color: var(--color-write);
+    display: block;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-black);
+    color: var(--color-write);
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.ctrl {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ctrl p {
+    display: inline;
+}
+
+.ctrl a {
+    text-decoration: none;
+}
+
+a {
+    color: var(--color-write);
+    text-decoration: none;
+}
+
