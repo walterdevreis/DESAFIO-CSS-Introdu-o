@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+img {
+    width: 30px;
+    height: 30px;
+}
+
 :root {
     --color-write: #ffffff;
     --color-red: #F03C42;
@@ -27,7 +32,6 @@
 header {
     display: flex;
     align-items: center;
-    width: 100%;
     padding: 20px;
     background-color: var(--color-red);
     color: var(--color-write);
@@ -43,12 +47,8 @@ header h1 {
 header p {
     align-items: center;
     font-size: 14px; 
-    font-weight: 400;   
-}
-
-header img {
-    width: 30px;
-    height: 30px;
+    font-weight: 400;
+    padding: 0 10px;   
 }
 
 .nav-main {
@@ -69,10 +69,17 @@ header img {
 /*Seção One*/
 
 .space h2 {
+    width: 357px;
+    height: 44px;
     color: var(--color-write);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 .space {
+    height: 418px;
     display: block;
     align-items: center;
     width: 100%;
@@ -82,12 +89,49 @@ header img {
     color: var(--color-black);
 }
 
+.card {
+    height: 127px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: var(--color-gray);
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card p {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-black);
+}
+
 .card-one {
     width: 960px;
-    background-color: var(--color-gray);
+    margin: 20 0px;
 }
 
 /*Seção Two*/
+
+.space-two {
+    height: 880px;
+    display: block;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background-color: var(--color-write);
+    color: var(--color-red);
+}
 
 .modalities {
     display: flex;
@@ -101,9 +145,35 @@ header img {
 
 .card-two {
     width: 960px;
+    height: 106px;
     background-color: var(--color-blue);
     color: var(--color-write);
     display: block;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.space-two h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-red);
+    margin-bottom: 40px;    
+}
+
+.card-two h3 {
+    font-size: 20px;
+    font-weight: 700;  
+}
+
+.card-two p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-gray);
+    margin-top: 20px;
 }
 
 /*Footer*/
@@ -112,31 +182,83 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 262px;
     background-color: var(--color-black);
     color: var(--color-write);
 }
 
-footer img {
-    width: 30px;
-    height: 30px;
-}
-
-.ctrl {
-display: flex;
+.ctrl-one {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.ctrl p {
+.ctrl-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.ctrl-one p {
     display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px; 
+    align-items: center  
 }
 
-.ctrl a {
+.ctrl-two p {
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px; 
+    align-items: center  
+}
+
+.ctrl-two address {
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px; 
+    align-items: center  
+}
+
+.ctrl-one a {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
+    margin: 5px;
+    padding: 0 10px; 
+    align-items: center;
 }
 
 a {
     color: var(--color-write);
     text-decoration: none;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-main div {
+    display: flex;
+    align-items: center;
 }
 
